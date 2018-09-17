@@ -102,7 +102,7 @@ class StatAnalysisWrapper(CommandBuilder):
         job = "-job filter -dump_row "+dump_row_file
         self.add_env_var("JOB", job)
         #get stat_analysis config file
-        self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+        self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
         #environment
         self.logger.debug("")
         self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -175,7 +175,7 @@ class StatAnalysisWrapper(CommandBuilder):
             job = "-job filter -dump_row "+dump_row_file
             self.add_env_var("JOB", job)
             #get stat_analysis config file
-            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
             #environment
             self.logger.debug("")
             self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -283,7 +283,7 @@ class StatAnalysisWrapper(CommandBuilder):
                             job = "-job filter -dump_row "+dump_row_file
                             self.add_env_var("JOB", job)
                             #get stat_analysis config file
-                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
                             #environment
                             self.logger.debug("")
                             self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -421,7 +421,7 @@ class StatAnalysisWrapper(CommandBuilder):
                                 job = "-job filter -dump_row "+dump_row_file
                                 self.add_env_var("JOB", job)
                                 #get stat_analysis config file
-                                self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+                                self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
                                 #environment
                                 self.logger.debug("")
                                 self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -530,7 +530,7 @@ class StatAnalysisWrapper(CommandBuilder):
                             job = "-job filter -dump_row "+dump_row_file
                             self.add_env_var("JOB", job)
                             #get stat_analysis config file
-                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
                             #environment
                             self.logger.debug("")
                             self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -628,7 +628,7 @@ class StatAnalysisWrapper(CommandBuilder):
                             job = "-job filter -dump_row "+dump_row_file
                             self.add_env_var("JOB", job)
                             #get stat_analysis config file
-                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
                             #environment
                             self.logger.debug("")
                             self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
@@ -726,7 +726,7 @@ class StatAnalysisWrapper(CommandBuilder):
                             job = "-job filter -dump_row "+dump_row_file
                             self.add_env_var("JOB", job)
                             #get stat_analysis config file
-                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG'))
+                            self.set_param_file(self.p.getstr('config', 'STAT_ANALYSIS_CONFIG_FILE'))
                             #environment
                             self.logger.debug("")
                             self.logger.debug("ENVIRONMENT FOR NEXT COMMAND: ")
