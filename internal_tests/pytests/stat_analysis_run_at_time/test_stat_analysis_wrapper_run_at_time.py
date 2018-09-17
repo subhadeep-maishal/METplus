@@ -144,7 +144,7 @@ def test_run_at_time_valid_check_file():
     test_file = os.path.join(stat_analysis_out_dir, cycle+"Z", model_type, model_type+"_"+date_YYYYMMDD+".stat")
 
     # Truth file info 
-    truth_file_dir =  "/scratch4/NCEPDEV/global/save/Mallory.Row/VRFY/myMETplus_stuff/data_for_pytests"
+    truth_file_dir = mp.p.getdir('TRUTH_DIR')
     truth_file = os.path.join(truth_file_dir, verif_case, "VSDB_format", verif_type, cycle+"Z", model_type, model_type+"_"+date_YYYYMMDD+".stat")
     
     # Check final output directory for particular file with the correct

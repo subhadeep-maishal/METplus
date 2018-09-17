@@ -134,7 +134,7 @@ def test_valid_check_mean_file():
 
     # Get truth output
     files_in_truth_dir = []
-    truth_file_dir =  "/scratch4/NCEPDEV/global/save/Mallory.Row/VRFY/myMETplus_stuff/data_for_pytests"
+    truth_file_dir = mp.p.getdir('TRUTH_DIR') 
     verif_case = mp.p.getstr('config', 'VERIF_CASE')
     verif_type = mp.p.getstr('config', 'VERIF_TYPE')
     for dirpath, dirnames, files in os.walk(os.path.join(truth_file_dir, verif_case, "make_plots", verif_type)):
